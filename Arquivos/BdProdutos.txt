@@ -1,0 +1,2 @@
+1;memoria RAM;Amelhor;100.0;10
+2;cooler;refrigera;20.0;50
