@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CadProdController">
+   <children>
+      <Pane prefHeight="79.0" prefWidth="800.0" style="-fx-background-color: #488477;">
+         <children>
+            <Text fill="#ead055" layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GerenInfor" textAlignment="CENTER">
+               <font>
+                  <Font name="Consolas" size="23.0" />
+               </font>
+            </Text>
+            <Text layoutX="286.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CADASTRO" textAlignment="CENTER">
+               <font>
+                  <Font name="SansSerif Regular" size="41.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutY="79.0" prefHeight="487.0" prefWidth="800.0">
+         <children>
+            <GridPane prefHeight="487.0" prefWidth="750.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="393.0" minWidth="10.0" prefWidth="225.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="575.0" minWidth="10.0" prefWidth="575.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="CÓDIGO" />
+                  <Label text="ESTOQUE" GridPane.rowIndex="1" />
+                  <Label text="NOME" GridPane.rowIndex="2" />
+                  <Label text="MARCA" GridPane.rowIndex="3" />
+                  <Label text="VALOR" GridPane.rowIndex="4" />
+                  <TextField fx:id="inp_codigo" alignment="CENTER" promptText="somente numeros" GridPane.columnIndex="1" />
+                  <TextField fx:id="inp_estoque" alignment="CENTER" promptText="somente numeros" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="inp_nome" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="inp_marca" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField fx:id="inp_valor" alignment="CENTER" promptText="somente numeros" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+      <ButtonBar layoutX="-5.0" layoutY="560.0" prefHeight="40.0" prefWidth="791.0" style="-fx-background-color: trn;">
+         <buttons>
+            <Button mnemonicParsing="false" onAction="#btnCadastrar" style="-fx-background-color: #1C1C1C;" text="CADASTRAR" textFill="#10b210" />
+            <Button mnemonicParsing="false" onAction="#vltMenu" style="-fx-background-color: #1C1C1C;" text="CANCELAR" textFill="#f50707" />
+         </buttons>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ButtonBar>
+   </children>
+</AnchorPane>

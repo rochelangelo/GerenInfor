@@ -1,0 +1,10 @@
+rochel;70479703477;22;gerente
+teste;123;100;caixa
+rochel2;703594523423;22;caixa
+ze;11122233344455;22;tecnico
+Amancio;11122233344455;22;caixa
+mateus;22233300011;30;caixa
+mateus;220;12;caixa
+flavinha;0918249841;0;gerente
+rafael;212121212;18;caixa
+gabriel;123;21;caixa

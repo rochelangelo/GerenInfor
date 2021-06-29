@@ -1,0 +1,6 @@
+1;memoria RAM;Amelhor;100.0;10
+2;cooler;refrigera;20.0;50
+3;Caixote;Caixa;120.0;12
+4;ave;passarinho;1000.0;11
+1;asda;dsdsd;100.0;2131
+11;asas;teste;1222.0;120
