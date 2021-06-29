@@ -63,9 +63,6 @@ public class Gerente extends Usuario{
         return saida;
     }
 
-    public Servico cadServico(){
-
-    }
 
     public String dadosGerente(){
         return "Gerente " + getNome() + " portador do cpf " + getCpf();
